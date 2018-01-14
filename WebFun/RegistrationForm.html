@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My sites user Registration Form</title>
+    <meta name="description" content="Register your user profile to be able to
+    make comments, get updates, and be able to configure your liking of how you
+    view the webpage for quicker options.  Learn how to write an app all from 
+    start till the very end...">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>My Registration Form</h1>
+            <div class="container">
+                <form>
+					<p>
+                		<label for="first_name">First Name:</label>
+                		<input type="text" id="first_name" name="first_name">
+                	</p>
+					<p>
+                		<label for="last_name">Last Name:</label>
+                		<input type="text" id="last_name" name="last_name">
+                	</p>
+					<p>
+                		<label for="email">Email Add:</label>
+                		<input type="text" id="email" name="email">
+                	</p>
+					<p>
+                		<label for="password">Password:</label>
+                		<input type="password" id="password" name="password">
+					</p>
+					<p>
+                		<label for="pw_confirm">PW Verify:</label>
+                		<input type="password" id="pw_confirm" name="password_confirmation">
+					</p>
+					<p>
+                		<label for="birthday">Birthday:</label>
+                		<input type="date" id="bday" name="bday">
+					</p>
+					<p>
+						<label for="gender">Gender:</label>
+                		<input type="radio" name="gender" value="male" checked> Male
+                		<input type="radio" name="gender" value="female"> Female
+                		<input type="radio" name="gender" value="other"> Other
+					</p>
+                	<p>
+						<label for="description">A short description about yourself:</label>
+                		<textarea name="description"></textarea>
+					</p>
+					<p>
+                		<label for="pokemon">Choose pokemon:</label>
+                			<select name="pokemon">
+                    	<option value="pikachu">Pikachu</option>
+                    	<option value="bulbasaur">Bulbasaur</option>
+                    	<option value="squirtle">Squirtle</option>
+                		</select>
+					</p>
+					<p>
+                	<input type="submit" align="left" value="Submit">
+					</p>
+                </form>
+            </div>
+    </div>
+</body>
+</html>
